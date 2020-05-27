@@ -39,7 +39,7 @@ class _TelinhaState extends State<Telinha> {
       appBar: AppBar(title: Text("Hello World")), 
       body: Padding(
         //espaço
-        padding: EdgeInsets.all(10.0),
+        padding: EdgeInsets.all(50.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart'; //importa o pacote de todas as ferrament
 
 //estrutura da main
 void main(){
-  runApp(MaterialApp(home: new Telinha()));//não é obrigatório botar o 'new'
+  runApp(MaterialApp(debugShowCheckedModeBanner: false , home: new Telinha()));//não é obrigatório botar o 'new'
 }
 
 //sua classe tem que ser um widget.

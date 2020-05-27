@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'models/item.dart';
-
+import 'package:opencv/opencv.dart';
 void main(){
   runApp(MaterialApp(debugShowCheckedModeBanner: false, home: new Main()));
 }

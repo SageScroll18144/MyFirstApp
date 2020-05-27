@@ -12,7 +12,7 @@ class Main extends StatefulWidget {
   Main(){
     itens = [];
 
-    itens.add(new Item(title:"jldaofj", done: false));
+    itens.add(new Item(title:"jldssdsddaofj", done: false));
     itens.add(new Item(title:"jlj", done: true));
 
   }

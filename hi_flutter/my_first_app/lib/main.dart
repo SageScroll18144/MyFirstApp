@@ -39,12 +39,12 @@ class _TelinhaState extends State<Telinha> {
       appBar: AppBar(title: Text("Hello World")), 
       body: Padding(
         //espaço
-        padding: EdgeInsets.all(50.0),
+        padding: EdgeInsets.all(150.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             RaisedButton(
-              child: Text("Hello W0rld", style: TextStyle(fontSize: 20, color:Colors.white)), 
+              child: Text("Click", style: TextStyle(fontSize: 20, color:Colors.white)), 
               onPressed: _Clicked,
             ),
             Text(_my_var)
